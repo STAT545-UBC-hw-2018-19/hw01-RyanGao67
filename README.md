@@ -32,3 +32,7 @@ class Solution:
 # Favourite quotes
 > PHP is the best programming language in the world
 > --*Someone*
+
+# About games
+I once worked in a team which mainly focusing on a game called Call of Duty online. Here is the post. 
+![](img/callofduty.jpg)
