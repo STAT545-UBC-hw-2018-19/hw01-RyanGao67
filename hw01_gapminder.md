@@ -7,14 +7,6 @@ output:
         keep_md: true
 ---
 
-## LaTeX Equations in R Markdown
-
-Here is an equation:
-
-$$\alpha = 5 + 2$$
-
-Inline equation: $\alpha = 5 + 2$. 
-
 ## Data frame exploration
 
 ### Setting up
@@ -35,10 +27,10 @@ It's tabular data. To get a sense of this, go ahead and print out the `gapminder
 Let's explore `gapminder` with functions like `head`, `ncol`, `str`, `summary`.
 
 ### Extracting columns/"variables"
+#show data
 
 
 ```r
-#show data
 print(gapminder)
 ```
 
@@ -58,9 +50,9 @@ print(gapminder)
 ## 10 Afghanistan Asia       1997    41.8 22227415      635.
 ## # ... with 1,694 more rows
 ```
+#show first few rows
 
 ```r
-#show first few rows
 head(gapminder)
 ```
 
@@ -75,9 +67,9 @@ head(gapminder)
 ## 5 Afghanistan Asia       1972    36.1 13079460      740.
 ## 6 Afghanistan Asia       1977    38.4 14880372      786.
 ```
+#data description
 
 ```r
-#data description
 str(gapminder)
 ```
 
@@ -90,18 +82,18 @@ str(gapminder)
 ##  $ pop      : int  8425333 9240934 10267083 11537966 13079460 14880372 12881816 13867957 16317921 22227415 ...
 ##  $ gdpPercap: num  779 821 853 836 740 ...
 ```
+#number of columns
 
 ```r
-#number of columns
 ncol(gapminder)
 ```
 
 ```
 ## [1] 6
 ```
+#summarize data
 
 ```r
-#summarize data
 summary(gapminder)
 ```
 
