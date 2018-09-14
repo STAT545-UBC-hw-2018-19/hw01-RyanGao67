@@ -25,27 +25,24 @@ It's tabular data. To get a sense of this, go ahead and print out the `gapminder
 
 Let's explore `gapminder` with functions like `head`, `ncol`, `str`, `summary`.
 
-### Extracting columns/"variables"
-#show data
+# show data
 
 ```{r}
 print(gapminder)
 ```
-#show first few rows
+# show first few rows
 ```{r}
 head(gapminder)
 ```
-#data description
+# data description
 ```{r}
 str(gapminder)
 ```
-#number of columns
+# number of columns
 ```{r}
 ncol(gapminder)
 ```
-#summarize data
+# summarize data
 ```{r}
 summary(gapminder)
 ```
-
-Let's extract a column with `$`. Maybe compute its variance.

@@ -26,8 +26,7 @@ It's tabular data. To get a sense of this, go ahead and print out the `gapminder
 
 Let's explore `gapminder` with functions like `head`, `ncol`, `str`, `summary`.
 
-### Extracting columns/"variables"
-#show data
+# show data
 
 
 ```r
@@ -50,7 +49,7 @@ print(gapminder)
 ## 10 Afghanistan Asia       1997    41.8 22227415      635.
 ## # ... with 1,694 more rows
 ```
-#show first few rows
+# show first few rows
 
 ```r
 head(gapminder)
@@ -67,7 +66,7 @@ head(gapminder)
 ## 5 Afghanistan Asia       1972    36.1 13079460      740.
 ## 6 Afghanistan Asia       1977    38.4 14880372      786.
 ```
-#data description
+# data description
 
 ```r
 str(gapminder)
@@ -82,7 +81,7 @@ str(gapminder)
 ##  $ pop      : int  8425333 9240934 10267083 11537966 13079460 14880372 12881816 13867957 16317921 22227415 ...
 ##  $ gdpPercap: num  779 821 853 836 740 ...
 ```
-#number of columns
+# number of columns
 
 ```r
 ncol(gapminder)
@@ -91,7 +90,7 @@ ncol(gapminder)
 ```
 ## [1] 6
 ```
-#summarize data
+# summarize data
 
 ```r
 summary(gapminder)
@@ -115,5 +114,3 @@ summary(gapminder)
 ##  Max.   :1.319e+09   Max.   :113523.1  
 ## 
 ```
-
-Let's extract a column with `$`. Maybe compute its variance.
