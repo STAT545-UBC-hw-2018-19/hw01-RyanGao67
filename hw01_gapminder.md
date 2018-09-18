@@ -13,20 +13,15 @@ output:
 
 ### Setting up
 
-First, load the `gapminder` R package. If you don't have it installed, run `install.packages("gapminder")` in the console first.
+First, load the `gapminder` R package. run `install.packages("gapminder")` in the console first.
 
 
 ```r
 library(gapminder)
 ```
 
-### What is a data frame?
-
-It's tabular data. To get a sense of this, go ahead and print out the `gapminder` object (you might want to do this in the console!).
 
 ### Exploration of data frames
-
-Let's explore `gapminder` with functions like `head`, `ncol`, `str`, `summary`.
 
 # show data
 
