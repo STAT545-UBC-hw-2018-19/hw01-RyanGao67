@@ -1,10 +1,12 @@
 ---
 title: "Data Frame Exploration"
-output: 
-    html_document:
-        theme: cerulean
-        toc: true
-        keep_md: true
+output:
+  html_document:
+    keep_md: yes
+    theme: cerulean
+    toc: yes
+  pdf_document:
+    toc: yes
 ---
 
 ## Data frame exploration

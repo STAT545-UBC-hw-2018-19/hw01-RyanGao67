@@ -5,6 +5,7 @@ Visitor Navigation|
 ------------|  
 [README.md](https://github.com/STAT545-UBC-students/hw01-RyanGao67/blob/master/README.md)|  
 [hw01_instructions.md](https://github.com/STAT545-UBC-students/hw01-RyanGao67/blob/master/hw01_instructions.md)| 
+[hw01_gapminder.Rmd](https://github.com/STAT545-UBC-students/hw01-RyanGao67/blob/master/hw01_gapminder.Rmd)
 # Introduction to myself
 ## Quick facts
 * Graduate student  
