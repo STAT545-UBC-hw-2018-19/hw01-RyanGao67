@@ -46,3 +46,7 @@ ncol(gapminder)
 ```{r}
 summary(gapminder)
 ```
+# plot histogram of lifeExp
+```{r}
+hist(gapminder$lifeExp)
+```

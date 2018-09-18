@@ -114,3 +114,10 @@ summary(gapminder)
 ##  Max.   :1.319e+09   Max.   :113523.1  
 ## 
 ```
+# plot histogram of lifeExp
+
+```r
+hist(gapminder$lifeExp)
+```
+
+![](hw01_gapminder_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
