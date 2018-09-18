@@ -117,4 +117,4 @@ summary(gapminder)
 hist(gapminder$lifeExp)
 ```
 
-![](hw01_gapminder_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
+![](img/chunk1.jpg)
